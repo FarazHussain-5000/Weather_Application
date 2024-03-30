@@ -20,8 +20,6 @@ def Display_Weather(Data):
         Humidity = Data["main"]["humidity"]
         Wind = Data["wind"]["speed"]
 
-        print(Data)
-
         print(f"Weather in {City}:")
         print(f"Temperature: {Temperature:.2f}°C")
         print(f"Description: {Description}")
